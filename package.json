@@ -1,0 +1,28 @@
+{
+  "name": "clijs",
+  "version": "1.0.0",
+  "description": "CLI app for testing travis aso",
+  "homepage": "https://github.com/Touchpad/clijs",
+  "main": "index.js",
+  "author": "Kristofer Hamnell (kakburk.tk) <menoto@gmail.com>",
+  "repository": "Touchpad/clijs",
+  "bugs": {
+    "url": "https://github.com/Touchpad/clijs/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "cli"
+  ]
+}
