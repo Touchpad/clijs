@@ -11,10 +11,10 @@ $ npm install --save clijs
 ## Usage
 
 ```js
-var clijs = require('clijs');
+let clijs = require('clijs');
 clijs();
 ```
 
 ## License
 
-MIT © [Kristofer Hamnell](kakburk.tk)
+MIT © [Kristofer Hamnell](http://kakburk.tk)
