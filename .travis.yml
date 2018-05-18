@@ -1,0 +1,23 @@
+language: node_js
+
+sudo: false
+
+install:
+  - node -v
+  - which node
+  - npm -v
+  - which npm
+  - npm i
+
+before_script:
+  - npm test
+
+matrix:
+  include:
+    - os: linux
+      env: BUILDTYPE=release
+      node_js: 8
+    - os: osx
+      osx_image: xcode8.2
+      env: BUILDTYPE=release
+      node_js: 8
